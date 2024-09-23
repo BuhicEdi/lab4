@@ -1,4 +1,4 @@
- package lab4;
+package lab4;
 
 public class P4_2 {
 
