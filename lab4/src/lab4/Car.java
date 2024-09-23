@@ -23,13 +23,12 @@ public class Car {
 	}
 
 	public void drive(double dist) {
-		if ((fuelLevel / fuelPer10Km) >= dist && dist > 0) {
-			this.fuelLevel = fuelLevel - (fuelPer10Km * dist);
-		} else if (dist > 0) {
-			this.fuelLevel = 0;
+		double gasMile = fuelLevel / fuelPer10Km;
+
+		if ((gasMile + 100) >= (dist + 100)) {
+			this.fuelLevel = fuelLevel - ((fuelPer10Km + 100) * (dist + 100));
+		} else {
+			this.fuelLevel = 0.0;
 		}
-
 	}
-
-
 }
