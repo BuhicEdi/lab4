@@ -25,7 +25,7 @@ public class CheckString {
 			midStr = str.substring((strLength/2)-1, (strLength/2)+1);
 			
 		} else if (strLength %2 != 0) {
-			midStr = str.substring((strLength/2)+1, (strLength/2)+2);
+			midStr = str.substring((strLength/2), (strLength/2)+1);
 		}
 		
 		return midStr;
