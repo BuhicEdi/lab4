@@ -26,7 +26,7 @@ public class Car {
 		double gasMile = fuelLevel / fuelPer10Km;
 
 		if (gasMile >= dist) {
-			this.fuelLevel = fuelLevel - ((fuelPer10Km * dist);
+			this.fuelLevel = fuelLevel - (fuelPer10Km * dist);
 		} else {
 			this.fuelLevel = 0.0;
 		}
