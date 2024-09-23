@@ -7,16 +7,16 @@ public class CheckNumber {
 	private double nbr3;
 
 
-	public void setNbr1(double setNbr1) {
-		nbr1 = setNbr1;
+	public void setNbr1(double nbr1) {
+		this.nbr1 = nbr1;
 	}
 
-	public void setNbr2(double setNbr2) {
-		nbr2 = setNbr2;
+	public void setNbr2(double nbr2) {
+		this.nbr2 = nbr2;
 	}
 
-	public void setNbr3(double setNbr3) {
-		nbr3 = setNbr3;
+	public void setNbr3(double nbr3) {
+		this.nbr3 = nbr3;
 	}
 
 	public boolean allTheSame() {
