@@ -3,11 +3,11 @@
 public class P4_2 {
 
 	public static void main(String[] args) {
-		CheckString chk = new CheckString();
 		
 		
+		String strang = "Gävle";
 		
-		chk.getString("Gävlee");
+		CheckString chk = new CheckString(strang);
 		
 		
 		System.out.println(chk.middle());

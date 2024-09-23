@@ -4,9 +4,14 @@ public class CheckString {
 
 	private String str = null;
 	
-	public String getString(String str) {
+	public CheckString(String str) {
 		this.str = str;
+	}
+	
+	
+	public String getString() {
 		return str;
+		
 	}
 	
 	public String middle() {
@@ -15,12 +20,12 @@ public class CheckString {
 		
 		int strLength = str.length();
 		
+		
 		if (strLength %2 == 0) {
-			midStr = str.substring(strLength/2-1, strLength/2+1);
+			midStr = str.substring((strLength/2)-1, (strLength/2)+1);
 			
 		} else if (strLength %2 != 0) {
-			strLength = Math.round(strLength);
-			midStr = str.substring(strLength+1, strLength+2);
+			midStr = str.substring((strLength/2)+1, (strLength/2)+2);
 		}
 		
 		return midStr;
