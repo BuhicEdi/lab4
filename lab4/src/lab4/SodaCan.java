@@ -27,7 +27,7 @@ public class SodaCan {
 	
 	public double getSurfaceArea() {
 		double canSurfArea;
-		canSurfArea = 2 * Math.PI * radius * height;
+		canSurfArea = 2 * Math.PI * radius * (radius * height);
 		
 		return canSurfArea;
 		
