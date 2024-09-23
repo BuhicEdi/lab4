@@ -13,12 +13,12 @@ public class CheckString {
 		
 		String midStr = null;
 		
-		int strLength = (str.length() % 2);
+		int strLength = str.length();
 		
-		if (strLength == 0) {
-			midStr = str.substring(strLength-1, strLength+2);
+		if (strLength %2 == 0) {
+			midStr = str.substring(strLength/2-1, strLength/2+1);
 			
-		} else if (strLength != 0) {
+		} else if (strLength %2 != 0) {
 			strLength = Math.round(strLength);
 			midStr = str.substring(strLength+1, strLength+2);
 		}

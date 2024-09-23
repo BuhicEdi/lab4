@@ -7,7 +7,7 @@ public class P4_2 {
 		
 		
 		
-		chk.getString("Gävle");
+		chk.getString("Gävlee");
 		
 		
 		System.out.println(chk.middle());
