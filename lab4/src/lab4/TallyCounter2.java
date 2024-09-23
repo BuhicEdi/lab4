@@ -11,7 +11,13 @@ public class TallyCounter2 {
 	}
 	
 	public void count() {
-		this.counter++;
+		
+		if(counter < limit) {
+			this.counter++;
+		} else {
+			System.out.println("Warning: Limit exceeded!");
+		}
+
 	}
 	
 	public int getValue() {

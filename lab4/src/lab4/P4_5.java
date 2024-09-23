@@ -13,7 +13,9 @@ public class P4_5 {
 		
 		System.out.println(count.getValue());
 		
-		count.undo();
+		count.count();
+		count.count();
+		count.count();
 	}
 
 }
