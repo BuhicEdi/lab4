@@ -11,7 +11,7 @@ public class Student {
 	}
 	
 	public void addQuizScore(double score) {
-		this.totalScore = score;
+		this.totalScore += score;
 		this.nbrOfQuiz++;
 	}
 	
