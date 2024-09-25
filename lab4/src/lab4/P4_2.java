@@ -1,17 +1,20 @@
 package lab4;
+/**
+ * Detta program testar klassen CheckString.
+ * 
+ * @author Edi Buhic
+ * @version 2024-09-24
+ */
 
 public class P4_2 {
 
 	public static void main(String[] args) {
-		
-		
-		String strang = "Gävle";
-		
-		CheckString chk = new CheckString(strang);
-		
-		
+
+		String str = "Gävle";						// Provsträng
+		CheckString chk = new CheckString(str);		// Genererar en ny instans av klassen CheckString
+
+		//Anropar metoder som ska returnera mittersta bokstaven och antalet vokaler
 		System.out.println(chk.middle());
 		System.out.println(chk.countVowels());
 	}
-
 }
