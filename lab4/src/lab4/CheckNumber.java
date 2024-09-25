@@ -1,11 +1,16 @@
 package lab4;
+/**
+ * 
+ * 
+ * @author Edi Buhic
+ * @version 2024-09-25
+ */
 
 public class CheckNumber {
 
 	private double nbr1;
 	private double nbr2;
 	private double nbr3;
-
 
 	public void setNbr1(double nbr1) {
 		this.nbr1 = nbr1;
@@ -43,7 +48,5 @@ public class CheckNumber {
 		} else {
 			return false;
 		}
-
 	}
-
 }

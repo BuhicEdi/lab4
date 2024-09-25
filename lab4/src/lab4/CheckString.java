@@ -1,4 +1,10 @@
 package lab4;
+/**
+ * 
+ * 
+ * @author Edi Buhic
+ * @version 2024-09-25
+ */
 
 public class CheckString {
 
@@ -8,18 +14,14 @@ public class CheckString {
 		this.str = str;
 	}
 
-
 	public String getString() {
 		return str;
 
 	}
 
 	public String middle() {
-
 		String midStr = null;
-
 		int strLength = str.length();
-
 
 		if (strLength %2 == 0) {
 			midStr = str.substring((strLength/2)-1, (strLength/2)+1);
@@ -27,9 +29,7 @@ public class CheckString {
 		} else if (strLength %2 != 0) {
 			midStr = str.substring((strLength/2), (strLength/2)+1);
 		}
-
 		return midStr;
-
 	}
 
 	public int countVowels() {
@@ -41,7 +41,6 @@ public class CheckString {
 				voCount++;
 			}
 		}
-
 		return voCount;
 	}
 }

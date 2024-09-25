@@ -1,4 +1,10 @@
 package lab4;
+/**
+ * 
+ * 
+ * @author Edi Buhic
+ * @version 2024-09-25
+ */
 
 public class TallyCounter1 {
 
