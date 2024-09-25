@@ -1,6 +1,6 @@
 package lab4;
 /**
- * 
+ * Klass som tar emot en sträng och returnear mittersta bokstaven samt antalet vokaler.
  * 
  * @author Edi Buhic
  * @version 2024-09-25
@@ -8,17 +8,20 @@ package lab4;
 
 public class CheckString {
 
+	// Klassattribut som lagrar inmatade strängen
 	private String str = null;
 
+	// Klassens konstruktor som tar emot strängen som ska kontrolleras
 	public CheckString(String str) {
 		this.str = str;
 	}
 
+	// Metod som returnerar strängen
 	public String getString() {
 		return str;
-
 	}
 
+	// Metod som returnerar mittersta bokstaven (2 ifall strängens är jämnt antal bokstäver långt)
 	public String middle() {
 		String midStr = null;
 		int strLength = str.length();
@@ -32,6 +35,7 @@ public class CheckString {
 		return midStr;
 	}
 
+	// Metod som räknar samt returnerar antalet vokaler i strängen
 	public int countVowels() {
 		String voList = "aoueiyåäöAOUEIYÅÄÖ";
 		int voCount = 0;
