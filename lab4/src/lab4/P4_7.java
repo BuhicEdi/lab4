@@ -3,7 +3,7 @@ package lab4;
  * Detta program testar klassen Car.
  * 
  * @author Edi Buhic
- * @version 2024-09-24
+ * @version 2024-09-25
  */
 
 public class P4_7 {

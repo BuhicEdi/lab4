@@ -3,7 +3,7 @@ package lab4;
  * Detta program testar klassen Bug.
  * 
  * @author Edi Buhic
- * @version 2024-09-24
+ * @version 2024-09-25
  */
 
 public class P4_8 {

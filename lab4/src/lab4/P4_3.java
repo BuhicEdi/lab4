@@ -3,8 +3,9 @@ package lab4;
  * Detta program testar klassen SodaCan.
  * 
  * @author Edi Buhic
- * @version 2024-09-24
+ * @version 2024-09-25
  */
+
 class P4_3 {
 
 	public static void main(String[] args) {
