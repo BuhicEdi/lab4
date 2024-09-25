@@ -26,5 +26,6 @@ public class P4_5 {
 		count.count();
 		count.count();
 		count.count();
+		count.count();
 	}
 }
