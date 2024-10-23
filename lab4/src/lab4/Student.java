@@ -3,7 +3,7 @@ package lab4;
  * Klass som genererar en student och lagrar dess tentamensresultat
  * 
  * @author Edi Buhic
- * @version 2024-09-25
+ * @version 2024-10-23
  */
 
 public class Student {
@@ -16,6 +16,8 @@ public class Student {
 	// Klassens konstruktor som tar emot namnet på studenten
 	public Student(String student) {
 		this.name = student;
+		this.totalScore = 0.0;
+		this.nbrOfQuiz = 0;
 	}
 
 	// Metod som adderar nytt provresultat
@@ -36,6 +38,9 @@ public class Student {
 
 	// Metod som returnerar ett medelvärde på totalpoängen
 	public double getAverageScore() {
+		if (nbrOfQuiz == 0 || totalScore < 0) {
+			return 0;
+		}
 		return totalScore / nbrOfQuiz;
 	}
 
